@@ -1,5 +1,5 @@
 # WinRSheDll
-Windows Reverse Shell DLL
+Windows (WinSock2.2) Reverse Shell DLL
 
 A simple Reverse Shell as a Dynamic-link library, it's based in [this Gist](https://gist.github.com/otavioarj/218ad828b6909345c15bfcf6072b4eb4).<br>
 
